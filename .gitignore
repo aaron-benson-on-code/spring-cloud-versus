@@ -1,6 +1,7 @@
 # ide files #
 .idea
-.iml
+*.iml
+.DS_Store
 
 # 
 
@@ -8,4 +9,8 @@
 *.jar
 *.war
 *.zip
+
+.gradle
+build
+target
 
