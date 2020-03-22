@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.function.Function;
 
-@Component("rpsFunction")
+@Component(value = "rpsFunction")
 public class RockPaperScissors implements Function<Game, String> {
 
   @Override
