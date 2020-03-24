@@ -2,6 +2,7 @@ package io.aaron.benson.on.code;
 
 import io.aaron.benson.on.code.functions.RockPaperScissors;
 import io.aaron.benson.on.code.model.Game;
+import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.function.context.FunctionRegistration;
 import org.springframework.cloud.function.context.FunctionType;
@@ -9,7 +10,7 @@ import org.springframework.cloud.function.context.FunctionalSpringApplication;
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.support.GenericApplicationContext;
 
-@SpringBootApplication
+@SpringBootConfiguration
 public class FunctionalApplication
     implements ApplicationContextInitializer<GenericApplicationContext> {
 
